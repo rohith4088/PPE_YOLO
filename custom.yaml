@@ -1,4 +1,0 @@
-train: /Users/rohithr/Documents/yolo/train
-val: /Users/rohithr/Documents/yolo/val
-nc: 6
-names: ["person","vest","blue helmet","red helmet","white helmet","yellow helmet"]
