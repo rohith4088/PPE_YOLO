@@ -8,6 +8,8 @@ git clone https://github.com/rohith4088/PPE_YOLO.git
 
 The access paths are defined in the data.yaml file.
 
+after cloning change the path for the files in data.yaml(add absolute paths)
+
 To train the yolo custom model use:
 Yolo task=detect mode=train epochs=100 data=custom.yaml model=yolov8m.pt imgsz=640 batch=8
 
@@ -18,3 +20,4 @@ For early stopping use the patiance parameter.
 To predict from the webcam use the source parameter as 0.
 
 Yolo task=detect mode=predict model=yolov8m_custom.pt show=True conf=0.5 source=0 (for webcam)
+
